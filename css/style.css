@@ -1,0 +1,29 @@
+.container {
+  margin: auto;
+  max-width: 1060px;
+  padding: 0 80px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+aside {
+  float: right;
+  width: 300px;
+  border-left: 5px solid gray;
+  text-align: justify;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.pic-box {
+  display: block;
+  float: left;
+  margin: 10px;
+  background-position: center;
+  object-fit: contain;
+}
+
+.pic {
+  height: 280px;
+  width: 280px;
+}
